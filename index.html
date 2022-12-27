@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="mouse" aria-hidden="true">
+      <div class="mouse__view">КОТ</div>
+    </div>
+
+    <div class="preloader">
+      <span class="preloader__back">URB 18-02</span>
+      <p class="preloader__forward">
+        Телеграмм группа "СуперСброд"
+        <span class="preloader__background"></span>
+      </p>
+    </div>
+
+    <input type="hidden" value="1" id="helper-input" />
+
+    <div class="site-container">
+      <header class="header">
+        <div class="container header__container">
+          <a href="#" class="logo header__logo"> УРБ 18-02 </a>
+          <nav class="nav header__nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link">Дизайнер</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">История</a>
+              </li>
+              <li class="nav__item"><a href="#" class="nav__link">Новое</a></li>
+            </ul>
+          </nav>
+          <button class="burger header__burger" aria-label="Open Menu"></button>
+        </div>
+      </header>
+      <main class="main-wrapper">
+        <h1 class="visually-hidden">Designers studio Arita</h1>
+        <section class="main-section slide-1">
+          <div class="container">
+            <div class="slides-container">
+              <div class="wrapper">
+                <div class="slides-container__left">
+                  <div class="main-section__explore">Меня зовут</div>
+                  <div
+                    class="slides-container__slide slides-container__slide--active"
+                  >
+                    <div class="slides-container__text">
+                      <h2 class="slides-container__title">Хамидов Махмуд</h2>
+                      <div class="designers-info">
+                        <div class="designers-info__image">
+                          <img
+                            src="img/Maxa.jpg"
+                            alt="Photo of Kristie van Noort"
+                          />
+                        </div>
+                        <div class="designers-info__descr">
+                          <div class="designers-info__country">Ташкент</div>
+                          <div class="designers-info__by">
+                            Главный <br />
+                            Алкашь нашей группы
+                            <br />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slides-container__slide">
+                    <div class="slides-container__text">
+                      <h2
+                        class="slides-container__title slides-container__title--dark"
+                      >
+                        Сайфулов Амаль
+                      </h2>
+                      <div class="designers-info">
+                        <div class="designers-info__image">
+                          <img
+                            src="img/Amal.PNG"
+                            alt="Photo of Kristie van Noort"
+                          />
+                        </div>
+                        <div class="designers-info__descr">
+                          <div class="designers-info__country">
+                            Вроде планета земля
+                          </div>
+                          <div class="designers-info__by">
+                            Называйте меня <br />
+                            Спортсмен
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slides-container__slide">
+                    <div class="slides-container__text">
+                      <h2 class="slides-container__title">Гайбулаев Ислом</h2>
+                      <div class="designers-info">
+                        <div class="designers-info__image">
+                          <img
+                            src="img/islom.jpg"
+                            alt="Photo of Kristie van Noort"
+                          />
+                        </div>
+                        <div class="designers-info__descr">
+                          <div class="designers-info__country">Самарканд</div>
+                          <div class="designers-info__by">
+                            Черт ака <br />
+                            Всегда мечтал что бы меня называли ака
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slides-container__slide">
+                    <div class="slides-container__text">
+                      <h2 class="slides-container__title">Аразмадов Батыр</h2>
+                      <div class="designers-info">
+                        <div class="designers-info__image">
+                          <img
+                            src="img/batir.jpg"
+                            alt="Photo of Kristie van Noort"
+                          />
+                        </div>
+                        <div class="designers-info__descr">
+                          <div class="designers-info__country">Ташкент</div>
+                          <div class="designers-info__by">
+                            Лаура
+                            <br />
+                            Маха знает почему<br />
+                            меня так прозвали в узких кругах
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slides-container__slide">
+                    <div class="slides-container__text">
+                      <h2 class="slides-container__title">Джураев Умид</h2>
+                      <div class="designers-info">
+                        <div class="designers-info__image">
+                          <img
+                            src="img/umid.jpg"
+                            alt="Photo of Kristie van Noort"
+                          />
+                        </div>
+                        <div class="designers-info__descr">
+                          <div class="designers-info__country">Алмалык</div>
+                          <div class="designers-info__by">
+                            Лизун<br />
+                            На все ради оценок
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slides-container__bg slide-bg">
+                  <div class="slide-bg__inner slide-bg__inner--current">
+                    <a
+                      href="#"
+                      class="slide-bg__link"
+                      data-bg="img/Maxa-title.jpg"
+                    ></a>
+                  </div>
+                  <div class="slide-bg__inner index">
+                    <a
+                      href="#"
+                      class="slide-bg__link"
+                      data-bg="img/amal-title.jpg"
+                    ></a>
+                  </div>
+                  <div class="slide-bg__inner">
+                    <a
+                      href="#"
+                      class="slide-bg__link"
+                      data-bg="img/islom-title.jpg"
+                    ></a>
+                  </div>
+                  <div class="slide-bg__inner">
+                    <a
+                      href="#"
+                      class="slide-bg__link"
+                      data-bg="img/batir-title.jpg"
+                    ></a>
+                  </div>
+                  <div class="slide-bg__inner">
+                    <a
+                      href="#"
+                      class="slide-bg__link"
+                      data-bg="img/umid-title.jpg"
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shapes" aria-hidden="true">
+            <div class="shapes__item shapes__item--current">
+              <div class="shapes__content" data-bg="#C9B39B"></div>
+            </div>
+            <div class="shapes__item index">
+              <div class="shapes__content" data-bg="#D6D8CF"></div>
+            </div>
+            <div class="shapes__item">
+              <div class="shapes__content" data-bg="#D2E5DE"></div>
+            </div>
+            <div class="shapes__item">
+              <div class="shapes__content" data-bg="#DFE5E7"></div>
+            </div>
+            <div class="shapes__item">
+              <div class="shapes__content" data-bg="#D6D8CF"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="libs/bezier.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/swiped-events/1.0.8/swiped-events.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/start-animation.js"></script>
+    <script src="js/mouse.js"></script>
+    <script src="js/bg-slides.js"></script>
+    <script src="js/images-slides.js"></script>
+    <script src="js/text-slides.js"></script>
+    <script src="js/shapes-slides.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
