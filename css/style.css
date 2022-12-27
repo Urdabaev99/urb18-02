@@ -434,6 +434,7 @@ ul {
 .designers-info__image img{
   width: 190px;
   height: 142px;
+  object-fit: cover;
 }
 
 .designers-info__descr {
